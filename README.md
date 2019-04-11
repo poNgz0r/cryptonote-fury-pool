@@ -28,16 +28,13 @@ npm update
 ```
 
 #### 2) Adjust config.json
-Replace **YOUR_POOL_URL** with the url of your pool (example: fury.piratepools.nl)
-Replace **YOUR_POOL_WALLET** with a fury wallet you want to use for your pool
-Replace **YOUR_ADMIN_PASSWORD** with a password your can remember. You will be using that to reach the back-end of your pool (example fury.piratepools.nl/admin.html)
+- Replace **YOUR_POOL_URL** with the url of your pool (example: fury.piratepools.nl).
+- Replace **YOUR_POOL_WALLET** with a fury wallet you want to use for your pool
+- Replace **YOUR_ADMIN_PASSWORD** with a password your can remember. You will be using that to reach the back-end of your pool (example fury.piratepools.nl/admin.html)
 
 
 #### 3) Host the front-end
-Simply host the contents of the `website_example` directory on file server capable of serving simple static files.
-
-Edit the variables in the `website_example/config.js`:
-Variable explanations:
+Simply host the contents of the `website_example` directory on file server capable of serving simple static files. Edit the variables in the `website_example/config.js`:
 
 ```javascript
 var api = "https://**YOUR_POOL_URL**:2888";
