@@ -1,5 +1,5 @@
 {
-	"poolHost": "YOUR_POOL_URL",
+    "poolHost": "YOUR_POOL_URL",
     "coin": "FuryCoin",
     "symbol": "FURY",
     "coinUnits": 100000000,
