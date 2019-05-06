@@ -1,6 +1,10 @@
 cryptonote-fury-pool
 ======================
 
+#### Update 06-05-2019 ####
+1. Added "useFirstVout": true because there are service nodes now. If you don't add this, the block reward is calculated incorrectly
+2. Increased the mixin from 3 to 10
+
 #### 1. Requirements for Ubuntu 16.04
 * Install dependencies:
 ```
