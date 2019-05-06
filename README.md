@@ -3,9 +3,19 @@ cryptonote-fury-pool
 
 #### Update 06-05-2019 ####
 1. Added "useFirstVout": true because there are service nodes now. If you don't add this, the block reward is calculated incorrectly
+ ```
+"blockUnlocker": {
+	"enabled": true,
+	"interval": 30,
+	"depth": 10,
+	"useFirstVout": true,
+	"poolFee": 0.2,
+	"devDonation": 0.0
+},
+```
 2. Increased the mixin from 3 to 10
 
-#### 1. Requirements for Ubuntu 16.04
+#### 1) Requirements for Ubuntu 16.04
 * Install dependencies:
 ```
 sudo apt-get install libgtest-dev && cd /usr/src/gtest && sudo cmake . && sudo make && sudo mv libg* /usr/lib/
