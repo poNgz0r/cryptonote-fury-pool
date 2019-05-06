@@ -138,7 +138,7 @@ npm update
         "enabled": true,
         "interval": 900,
         "maxAddresses": 10,
-        "mixin": 3,
+        "mixin": 10,
         "priority": 0,
         "transferFee": 1000000,
         "dynamicTransferFee": true,
@@ -153,6 +153,7 @@ npm update
         "enabled": true,
         "interval": 30,
         "depth": 10,
+		"useFirstVout": true,
         "poolFee": 0.2,
         "devDonation": 0.0
     },
